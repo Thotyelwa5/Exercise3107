@@ -4,7 +4,7 @@ const fs = require('fs');
 fs.writeFileSync('./data.txt', 'Well Done!');
  fs.writeFileSync('./data.txt', '\nYou are the best!')
        
-fs.appendFileSync('./data.txt', 'You are superb!')
+fs.appendFileSync('./data.txt', '\nYou are superb!')
         
 
 
